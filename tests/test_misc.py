@@ -458,5 +458,5 @@ class RecordTests(unittest.TestCase):
         obj.add("245", a=["Hello", "", "X!"])
         self.assertEquals(len(obj.get_fields()), 1)
         self.assertEquals(len(obj.get_fields()[0].subfields), 4)
-        self.assertEquals(obj.get_fields()[0].subfields[0], "a")
+        self.assertEquals(obj.get_fields()[0].subfields[0], "a")d
         self.assertEquals(obj.get_fields()[0].subfields[2], "a")
